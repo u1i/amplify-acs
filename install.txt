@@ -1,0 +1,3 @@
+npm install acs -g
+
+acs login
