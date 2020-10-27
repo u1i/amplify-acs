@@ -5,7 +5,7 @@ image=u1ih/hello
 
 #acs config --set PORT=8080 $project
 
-# amplify acs login
+amplify acs login
 acs new $project --force
 acs config --set PORT=8080 $project
 acs server --set Small $project
